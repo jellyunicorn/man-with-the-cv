@@ -1,3 +1,5 @@
+import man from "../assets/man_portrait.png";
+
 export default function () {
   return (
     <div>
@@ -24,7 +26,7 @@ export default function () {
         </div>
         <div className="order-1 md:order-2 flex justify-center">
           <img
-            src="/src/assets/man portrait.png"
+            src={man}
             alt="My Portrait"
             className="rounded-full border-4 border-[#6c9de6]"
           />

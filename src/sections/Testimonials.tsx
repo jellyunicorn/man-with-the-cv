@@ -1,4 +1,6 @@
 import TestimonialCard from "../components/TestimonialCard";
+import testimonialThumb1 from "../assets/testimonial1.png";
+import testimonialThumb2 from "../assets/testimonial2.png";
 
 export default function Testimonials() {
   return (
@@ -13,12 +15,12 @@ export default function Testimonials() {
           <TestimonialCard
             name="John Cena"
             review="The most skilled web developer I have ever met."
-            thumbnail="src/assets/testimonial1.png"
+            thumbnail={testimonialThumb1}
           />
           <TestimonialCard
             name="Jane Cena"
             review="He taught me how to be a full-stack web developer in 2 weeks."
-            thumbnail="src/assets/testimonial2.png"
+            thumbnail={testimonialThumb2}
           />
         </div>
       </div>

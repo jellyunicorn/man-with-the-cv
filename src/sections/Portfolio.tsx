@@ -1,4 +1,7 @@
 import PortfolioCard from "../components/PortfolioCard";
+import imgCode from "../assets/code1.png";
+import imgWebsite from "../assets/website_stock.png";
+import imgServer from ",,/assets/server_stock.png";
 
 export default function Portfolio() {
   return (
@@ -12,7 +15,7 @@ export default function Portfolio() {
         <div className="grid grid-cols-1 md:grid-cols-3 mt-8 gap-4">
           <PortfolioCard
             name="Coderator"
-            img="/src/assets/code1.png"
+            img={imgCode}
             stack={["JavaScript", "Git", "Node.js", "Django"]}
             desc="Developed an AI-powered code generator for Google in order to improve
                   developer productivity. Prompt results show 27.3% faster and hallucinate
@@ -20,7 +23,7 @@ export default function Portfolio() {
           />
           <PortfolioCard
             name="webinator.js"
-            img="/src/assets/website_stock.png"
+            img={imgWebsite}
             stack={["JavaScript", "React", "CSS", "HTML", "Git", "PostgreSQL"]}
             desc="Using Coderator as a dependency, I developed an AI-powered code generator
                   for Amazon specialized in creating responsive, fast, interactive, and
@@ -28,7 +31,7 @@ export default function Portfolio() {
           />
           <PortfolioCard
             name="Servify"
-            img="/src/assets/server_stock.png"
+            img={imgServer}
             stack={["Java", "AWS", "Git"]}
             desc="Developed a program for Palantir in order to facilitate the integration of data
                   centers worldwide in order to improve the efficiency of getting surveillance
