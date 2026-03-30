@@ -1,7 +1,7 @@
 import PortfolioCard from "../components/PortfolioCard";
 import imgCode from "../assets/code1.png";
 import imgWebsite from "../assets/website_stock.png";
-import imgServer from ",,/assets/server_stock.png";
+import imgServer from "../assets/server_stock.png";
 
 export default function Portfolio() {
   return (
